@@ -59,6 +59,8 @@
  *     - data members
  * - comparisons of vectors
  */
+#ifndef MYSTL_VECTOR_H
+#define MYSTL_VECTOR_H
 
 #include "iterator.h"
 
@@ -700,3 +702,5 @@ bool operator>=(const vector<Tp, Allocator>& x,
 }
 
 }  // namespace mystl
+
+#endif  // MYSTL_VECTOR_H

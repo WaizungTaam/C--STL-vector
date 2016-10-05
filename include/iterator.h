@@ -50,6 +50,8 @@
  *   - reverse_iterator<Iterator>
  *   - reverse_iterator<Iterator, Tp, Reference, Distance>
  */
+#ifndef MYSTL_ITERATOR_H
+#define MYSTL_ITERATOR_H
 
 namespace mystl {
 
@@ -439,3 +441,5 @@ operator+(typename reverse_iterator<Iterator>::difference_type n,
 }
 
 }  // namespace mystl
+
+#endif  // MYSTL_ITERATOR_H
